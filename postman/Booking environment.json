@@ -1,0 +1,15 @@
+{
+	"id": "0c599b53-2d21-48c6-8f87-14306bfdff94",
+	"name": "Booking",
+	"values": [
+		{
+			"key": "bearerToken",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		}
+	],
+	"_postman_variable_scope": "environment",
+	"_postman_exported_at": "2024-06-16T22:41:36.340Z",
+	"_postman_exported_using": "Postman/10.5.8"
+}

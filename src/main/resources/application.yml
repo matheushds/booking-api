@@ -1,0 +1,30 @@
+spring:
+  application:
+    name: booking-api
+  flyway:
+    url: jdbc:hsqldb:mem:testdb
+    locations: classpath:/db/migration
+  datasource:
+    driverClassName: org.hsqldb.jdbc.JDBCDriver
+    url: jdbc:hsqldb:mem:testdb
+    username: sa
+    password:
+  jpa:
+    hibernate:
+      ddl-auto: none
+    database-platform:
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+
+jwt:
+  key:
+    private: classpath:private.key
+    public: classpath:public.key
+
+springdoc:
+  api-docs:
+    path: /api-docs
+  swagger-ui:
+    path: /swagger-ui.html
