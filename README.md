@@ -30,8 +30,8 @@ The Booking Application is designed to manage and facilitate reservations and wa
 1. **Clone the repository:**
 
    ```sh
-   git clone https://github.com/yourusername/booking-application.git
-   cd booking-application
+   git clone https://github.com/matheushds/booking-api.git
+   cd booking-api
    ```
 
 2. **Backend Setup:**
@@ -54,6 +54,9 @@ The Booking Application is designed to manage and facilitate reservations and wa
  `Property 1: id: 0`
  `Property 2: id: 1`
  `Property 3: id: 2`
+ ### To access swagger page:
+ 'localhost:8080/swagger-ui.html'
+
 
 1. **Access the application:**
 
