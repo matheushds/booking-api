@@ -55,7 +55,7 @@ The Booking Application is designed to manage and facilitate reservations and wa
  `Property 2: id: 1`
  `Property 3: id: 2`
  ### To access swagger page:
- 'localhost:8080/swagger-ui.html'
+ `localhost:8080/swagger-ui.html`
 
 
 1. **Access the application:**
